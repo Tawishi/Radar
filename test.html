@@ -22,7 +22,7 @@
           console.log(result.address);
 
           document.getElementById("country").innerHTML = "Your country is " +
-            result.address.countryFlag + "  " + result.address.countryCode;
+            result.address.countryFlag + "  " + result.address.city  + ", " + result.address.state  + ", " + result.address.country;
         }
       });
     </script>
